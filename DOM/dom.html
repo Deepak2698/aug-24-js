@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <!-- Internal JS -->
+    <script>
+        function handleClick(){
+            alert('Welcome Students')
+        }
+    </script>
+
+    <script src="./dom.js"></script> <!-- External JS -->
+</head>
+<body>
+    <div>
+        <button onClick="handleClick()">click me</button> <!-- Inline JS -->
+        <button onclick="externalMessage()">External BTN</button>
+    </div>
+</body>
+</html>
