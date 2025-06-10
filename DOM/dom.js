@@ -50,3 +50,39 @@ const externalMessage = () => {
 
 // console.log(num4); // functional 
 // console.log(num);  //global scope
+
+
+function changeCompany(){
+
+    let element = document.getElementById('myID');
+
+    // element.innerHTML = 'Welcome to Cognizant';
+
+    alert('Welcome to the company');
+
+    console.log('Congratulations');
+
+    document.write('Hello')
+}
+
+function enterUser(){
+
+    let username = window.prompt('Enter username');
+
+    let element = document.getElementById('username');
+
+    element.innerHTML = username;
+}
+
+function deleteUser(){
+
+    let confirm = window.confirm('Are you sure you want to delete ?');
+
+    let element = document.getElementById('username');
+
+    if(confirm){
+        element.innerHTML = 'User Deleted'
+    }else{
+        element.innerHTML = 'User not deleted'
+    }
+}

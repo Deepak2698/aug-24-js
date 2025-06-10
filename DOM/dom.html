@@ -13,11 +13,35 @@
     </script>
 
     <script src="./dom.js"></script> <!-- External JS -->
+
+    <link rel="stylesheet" href="./dom.css">
 </head>
 <body>
     <div>
+
+     
         <button onClick="handleClick()">click me</button> <!-- Inline JS -->
         <button onclick="externalMessage()">External BTN</button>
+
+        <h1 id="myID" class="bg-company">Welcome to Accenture</h1>
+        <button onclick="changeCompany()">change-company</button>
+
+        <br>
+        <br>
+        <hr>
+
+        <h4 id="username" class="user">
+
+        </h4>
+
+        <button style="background-color: green; color: aliceblue;" onclick="enterUser()">
+            Enter-user
+        </button>
+        <button style="background-color: red; color: antiquewhite;" onclick="deleteUser()">
+            delete-user
+        </button>
     </div>
+
+
 </body>
 </html>
